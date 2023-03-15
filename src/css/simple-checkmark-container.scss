@@ -1,0 +1,66 @@
+$url: "./../../public/";
+.greyone-checkbox {
+  &.button-checkmark-container {
+    // display: initial;
+
+    position: relative;
+    // padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #161546;
+
+    padding: 12px 15px 12px 28px;
+    margin: 0px;
+
+    // font
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+    > span input {
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    > input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      &:checked {
+        ~ {
+          .checkmark {
+            border: none;
+            content: url($url + "images/filter-checked.svg");
+            &:after {
+              display: block;
+            }
+          }
+        }
+        ~ span,
+        ~ span input {
+          font-size: 13px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .checkmark {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    height: 16px;
+    width: 16px;
+    content: url($url + "images/filter-uncheck.svg");
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+  }
+}

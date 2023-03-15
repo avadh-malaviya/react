@@ -1,0 +1,53 @@
+.planbutton{
+    padding: 5px 10px;
+    height: 25px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: inherit;
+    &:focus {
+        box-shadow: none !important;
+    }
+    &.plat {
+        &.green{
+            background: rgba(29, 48, 217, 0.08);
+            border: 1px solid #21BFAE;
+            color: #21BFAE;
+        }
+        &.red{
+            background: rgba(251, 63, 51, 0.08);
+            border: 1px solid #FB3F33;
+            color: #FB3F33;
+        }
+        &.blue{
+            background: rgba(29, 48, 217, 0.08);
+            border: 2px solid #1D30D9;
+            color: #1D30D9;
+        }
+    }
+
+    &.fill {
+        &.green{
+            background: #348958;
+            color: #FFFFFF;
+        }
+
+        &.red{
+            background: #FF4848;
+            color: #FFFFFF;
+        }
+
+        &.blue{
+            background: #1D30D9;
+            color: #FFFFFF;
+        }
+    }
+
+}

@@ -1,0 +1,194 @@
+$url: "./../../public/";
+
+.dashboard {
+  .badge-outline-skyblue {
+    border: 1px solid #4fa1c3;
+    color: #4fa1c3;
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .badge-font {
+    font-size: 13px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td {
+    position: relative;
+    padding: 13px 0px;
+    width: 20vw;
+    text-align: center;
+
+    .arrow-down {
+      position: absolute;
+      right: 15px;
+      bottom: 23px;
+    }
+  }
+
+  .line::before {
+    content: url($url + "table-splitor.svg");
+    position: absolute;
+    top: 34%;
+    left: 0px;
+  }
+
+  td:nth-child(1) {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .header-div {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    align-items: center;
+  }
+
+  .drop-btn {
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 5px 12px;
+    position: relative;
+  }
+
+  .selectdrop {
+    border: hidden;
+    outline: none;
+    background-color: transparent;
+    appearance: none;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    padding-bottom: 6px;
+  }
+
+  .color-blue {
+    color: blue;
+  }
+
+  /* ------------------------------------ Header background and font color ---------------------------------------------------*/
+
+  .bg-cleaning {
+    background-color: #e4f3f8;
+  }
+  .bg-cleaning div {
+    color: #28c4e5;
+  }
+
+  .bg-pending {
+    background-color: #f2e6f4;
+  }
+  .bg-pending div {
+    color: #d227af;
+  }
+
+  .bg-rejected {
+    background-color: #f4e8ed;
+  }
+  .bg-rejected div {
+    color: #f34759;
+  }
+
+  .bg-paused {
+    background-color: #ede6ef;
+  }
+  .bg-paused div {
+    color: #932b77;
+  }
+
+  .bg-delayed {
+    background-color: #f2eceb;
+  }
+  .bg-delayed div {
+    color: #d9713d;
+  }
+
+  .bg-finished {
+    background-color: #ebf2e8;
+  }
+  .bg-finished div {
+    color: #83b71d;
+  }
+
+  .bg-dnd {
+    background-color: #ede8f8;
+  }
+  .bg-dnd div {
+    color: #9942e7;
+  }
+
+  .bg-refused {
+    background-color: #efeee7;
+  }
+  .bg-refused div {
+    color: #b59217;
+  }
+
+  .bg-inspected {
+    background-color: #e3eaf5;
+  }
+  .bg-inspected div {
+    color: #235aba;
+  }
+
+  .bg-total {
+    background-color: #e8eef4;
+  }
+  .bg-total div {
+    color: #57afaa;
+  }
+
+  .bg-darkpink {
+    background-color: #ff54da;
+  }
+
+  .bg-darkblue {
+    background-color: #2727e7;
+  }
+
+  .bg-lightgreen {
+    background-color: #21bfae;
+  }
+  .text-lightgreen {
+    color: #21bfae;
+  }
+
+  .auto-clean::before {
+    content: url($url + "images/edit-line.svg");
+    position: absolute;
+    top: 25%;
+    left: 0px;
+  }
+
+  @keyframes options {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .sub-tr {
+    animation-name: options;
+    animation-duration: 1s;
+  }
+}
+
+.work-order {
+  tr:nth-of-type(even) td:nth-of-type(odd).has-data,
+  tr:nth-of-type(odd) td:nth-of-type(even).has-data {
+    background-color: white;
+  }
+  tr:nth-of-type(even) td:nth-of-type(even).has-data,
+  tr:nth-of-type(odd) td:nth-of-type(odd).has-data {
+    background-color: #e3f4f3;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+}

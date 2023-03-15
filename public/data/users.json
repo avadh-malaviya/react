@@ -1,0 +1,10 @@
+[
+    {"user": "Jane Cooper", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 102,293,456,456]},
+    {"user": "Wade Warren", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,852]},
+    {"user": "Esther Howard", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,852]},
+    {"user": "Leslie Alexander", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,852,102,293,456,456]},
+    {"user": "Jenny Wilson", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,852,102,293,456,456]},
+    {"user": "Robert Fox", "active": false, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,102,293,456,456,852]},
+    {"user": "Jacob Jones", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,852,102,293,456,456]},
+    {"user": "Kristin Waston", "active": true, "room_assigned": "03", "credit_allocated": "5", "rooms": [ 456,102,293,456,456,852]}
+]

@@ -1,0 +1,30 @@
+[
+    {
+      "id": 22,
+      "dept_id": 14,
+      "function": "HSKP Supervisor",
+      "description": "HSKP Supervisor",
+      "gs_device": "2",
+      "all_dept_setting": "1",
+      "escalation_setting": "1",
+      "escalation_device_setting": "0",
+      "short_code": "HSKPS",
+      "default_task_group_id": 0,
+      "hskp_role": "Supervisor",
+      "dept_func_id": 22
+    },
+    {
+      "id": 29,
+      "dept_id": 14,
+      "function": "HSKP Attendant",
+      "description": "HSKP Attendant",
+      "gs_device": "2",
+      "all_dept_setting": "1",
+      "escalation_setting": "1",
+      "escalation_device_setting": "0",
+      "short_code": "HKAT",
+      "default_task_group_id": 0,
+      "hskp_role": "Attendant",
+      "dept_func_id": 29
+    }
+  ]

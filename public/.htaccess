@@ -1,0 +1,5 @@
+# option for allowing fetch contents on react refresh
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

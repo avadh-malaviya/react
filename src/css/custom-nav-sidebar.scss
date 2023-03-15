@@ -1,0 +1,89 @@
+$url: "./../../public/";
+.nav-sidebar > .nav-item {
+  a.nav-link {
+    background-color: transparent !important;
+    &.active,
+    &:hover {
+      background-color: transparent !important;
+      color: #212529;
+      box-shadow: none !important;
+    }
+    &.active::before,
+    &:hover::before {
+      position: absolute;
+      content: url($url + "menu-icons/active-menu.svg");
+      right: -8px;
+      top: 4px;
+    }
+  }
+
+  .nav-treeview > .nav-item {
+    a.nav-link {
+      &.sub-active,
+      &:hover {
+        background-color: transparent !important;
+        color: #212529;
+        box-shadow: none !important;
+      }
+      &.sub-active::before,
+      &:hover::before {
+        position: absolute;
+        content: url($url + "menu-icons/sub-active-menu.svg");
+        right: -8px;
+        top: 4px;
+      }
+    }
+  }
+
+  .nav-icon {
+    width: 1.9rem;
+  }
+}
+
+aside {
+  .sidebar {
+    overflow-y: hidden !important;
+    &:hover {
+      overflow-y: auto !important;
+    }
+  }
+
+  &:hover ::-webkit-scrollbar-thumb {
+    display: unset;
+  }
+
+  &:hover li.nav-item {
+    // border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+  }
+
+  &:hover .sub-li {
+    padding-left: 1rem;
+    transition: padding-left 500ms;
+  }
+
+  .brand-link {
+    border: hidden !important;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 2px !important;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #198754 !important;
+    display: none;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+  }
+  .nav-link.active {
+    color: #212529 !important;
+  }
+}

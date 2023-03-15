@@ -1,0 +1,67 @@
+.close-btn {
+  color: red;
+  background-color: transparent;
+  border: hidden;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+}
+
+.close-btn.hover:hover {
+  background-color: red;
+  color: white;
+}
+
+.update-btn {
+  color: blue;
+  background-color: transparent;
+  border: hidden;
+}
+
+.update-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.btn-green {
+  background-color: #21bfae;
+  border-radius: 5px;
+  border: hidden;
+  color: #ffffff;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+}
+.btn-green:hover {
+  background-color: #22766d;
+}
+
+.modal-header {
+  justify-content: center;
+}
+
+.activity-history + .modal-body,
+.list + .modal-body {
+  padding: 0px;
+}
+
+.dropdown-toggle::after {
+  content: url("./../../public/images/down-arrow-white.svg") !important;
+  border-top: unset !important;
+  margin-left: 20px !important;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#dropdown-basic-button {
+  background-color: transparent;
+  border: 2px solid;
+  box-shadow: none;
+  width: 189px;
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 5px;
+}

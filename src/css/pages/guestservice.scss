@@ -1,0 +1,145 @@
+.request-head-data-container {
+}
+
+.offcanvas .offcanvas-body .guestservice-canvas {
+  .container-fluid > div {
+    padding: 0.5rem 1.5rem 0rem 2rem !important;
+  }
+
+  .guestservice-taskdetail-table {
+    .card-body {
+      overflow-y: auto;
+      height: 23vh;
+      padding: 0px !important;
+      thead tr {
+        position: sticky;
+        top: 0px;
+      }
+    }
+  }
+
+  .guestservice-taskdetail-content {
+    width: inherit;
+    overflow-y: auto;
+    max-height: 56vh;
+  }
+}
+.offcanvas .offcanvas-body .create-guestservice {
+  .searchWrapper {
+    padding: 2px 5px !important;
+  }
+}
+
+/* ----------------------------------------------- Guestservice Settings -------------------------------------------------- */
+
+.guestservice-settings {
+  .nav-tabs {
+    background: #e3f4f3;
+    .nav-item {
+      flex-grow: 1;
+      .nav-link {
+        margin: 0px;
+        width: 100%;
+      }
+      .nav-link.active {
+        color: white !important;
+        background: #21bfae;
+        box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 0;
+        &:hover {
+          color: black !important;
+        }
+      }
+    }
+  }
+}
+
+.setting-userdetail-content {
+  width: inherit;
+  overflow-y: auto;
+  max-height: 56vh;
+}
+
+.setting-userdetail-table {
+  .card-body {
+    overflow-y: auto;
+    height: 23vh;
+    padding: 0px !important;
+    thead tr {
+      position: sticky;
+      top: 0px;
+    }
+  }
+}
+
+.setting-locgrp-table,
+.setting-location-table,
+.setting-user-table,
+.setting-escalation-table,
+.setting-deptfun-table,
+.setting-shift-table,
+.setting-device-table,
+.setting-task-table {
+  .card {
+    margin: 0px;
+    .card-body {
+      padding: 0px 2px 2px 2px !important;
+    }
+  }
+}
+
+.setting-userdetail-form,
+.setting-userdetail-content,
+.setting-user-table,
+.setting-deptfun-table,
+.setting-shift-table,
+.setting-device-table,
+.setting-taskdetail-content,
+.setting-taskgroup-content {
+  .simple-checkbox .checkmark {
+    top: 4px;
+  }
+  .simple-checkbox.button-checkmark-container {
+    margin-top: 9px !important;
+    height: 25px;
+    padding: 6px 40px 6px 10px;
+  }
+  .checkbox-label {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+  }
+}
+
+.setting-device-table,
+.setting-shift-table {
+  .text-nowrap {
+    white-space: unset !important;
+  }
+}
+
+.setting-locgrp-table,
+.setting-escalation-table {
+  .searchWrapper {
+    padding: 4px;
+  }
+  .label-float {
+    label,
+    input {
+      font-weight: 400;
+      font-size: 13px;
+    }
+    label {
+      top: 7px;
+      color: #878798;
+    }
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+      top: -10px !important;
+    }
+  }
+}
+
+// .MuiList-padding {
+//   padding-top: 0px !important;
+// }

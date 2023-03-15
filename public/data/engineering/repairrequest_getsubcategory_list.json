@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "content": [
+    {
+      "id": 1,
+      "name": "Power Interruption",
+      "subcategory_name": "Power Interruption",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    },
+    {
+      "id": 2,
+      "name": "Fused Lamp",
+      "subcategory_name": "Fused Lamp",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    },
+    {
+      "id": 3,
+      "name": "Additional Power Provision",
+      "subcategory_name": "Additional Power Provision",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    },
+    {
+      "id": 4,
+      "name": "Appliances Repair",
+      "subcategory_name": "Appliances Repair",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    },
+    {
+      "id": 5,
+      "name": "Power Distribution",
+      "subcategory_name": "Power Distribution",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    },
+    {
+      "id": 6,
+      "name": "Assistance",
+      "subcategory_name": "Assistance",
+      "created_at": "2019-10-21 16:12:30",
+      "category_name": "Electrical"
+    }
+  ]
+}

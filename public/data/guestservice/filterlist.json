@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "user_id": 1,
+    "ticket": "Custom Days",
+    "status_id": "[0,1,2,3,4,5,6,7]",
+    "priority": "[1,2,3]",
+    "department_id": "[1,2,3,4]",
+    "type_id": "[1,2,4]",
+    "start_date": "2021-09-01",
+    "end_date": "2022-04-25"
+  },
+  "department": [
+    {
+      "id": 1,
+      "property_id": 4,
+      "building_id": 11,
+      "department": "Housekeeping",
+      "description": "Housekeeping",
+      "short_code": "HSKP",
+      "services": "Y",
+      "dynamic_job_role": 0,
+      "default_dept_func_id": 1,
+      "default_assignee": 140,
+      "device_based": 0,
+      "division_id": 0
+    },
+    {
+      "id": 2,
+      "property_id": 4,
+      "building_id": 11,
+      "department": "Engineering",
+      "description": "Engineering",
+      "short_code": "ENG",
+      "services": "Y",
+      "dynamic_job_role": 0,
+      "default_dept_func_id": 10,
+      "default_assignee": 144,
+      "device_based": 0,
+      "division_id": 0
+    },
+    {
+      "id": 3,
+      "property_id": 4,
+      "building_id": 11,
+      "department": "Concierge",
+      "description": "Concierge",
+      "short_code": "CON",
+      "services": "Y",
+      "dynamic_job_role": 0,
+      "default_dept_func_id": 10,
+      "default_assignee": 132,
+      "device_based": 0,
+      "division_id": 0
+    },
+    {
+      "id": 4,
+      "property_id": 4,
+      "building_id": 11,
+      "department": "Front Office",
+      "description": "Front Office",
+      "short_code": "FO",
+      "services": "Y",
+      "dynamic_job_role": 0,
+      "default_dept_func_id": 10,
+      "default_assignee": 134,
+      "device_based": 0,
+      "division_id": 0
+    }
+  ],
+  "priority": [
+    {
+      "id": "1",
+      "sequence": "1",
+      "priority": "Normal",
+      "description": "Normal",
+      "icon_url": null,
+      "status_color": null
+    },
+    {
+      "id": "2",
+      "sequence": "2",
+      "priority": "Medium",
+      "description": "Medium",
+      "icon_url": null,
+      "status_color": null
+    },
+    {
+      "id": "3",
+      "sequence": "3",
+      "priority": "High",
+      "description": "High",
+      "icon_url": null,
+      "status_color": null
+    }
+  ]
+}

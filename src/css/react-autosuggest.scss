@@ -1,0 +1,13 @@
+.react-autosuggest__container {
+    .react-autosuggest__suggestions-container{
+        position: absolute;
+        background: #F4F4F4;
+        width: 100%;
+        ul.react-autosuggest__suggestions-list {
+            li.react-autosuggest__suggestion {
+                list-style: none;
+                text-align: left;
+            }
+        }
+    }
+}

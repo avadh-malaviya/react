@@ -1,0 +1,429 @@
+/* -------------------------- Badges outline ----------------------------- */
+
+.outline-badge {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 4px 6px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.new,
+.open,
+.re-opened {
+  background: rgba(40, 196, 229, 0.08);
+  border: 1px solid #28c4e5;
+  color: #28c4e5;
+}
+
+.red,
+.closed,
+.timeout,
+.rejected {
+  background: rgba(243, 71, 89, 0.08);
+  border: 1px solid #f34759;
+  color: #f34759;
+}
+
+.canceled {
+  background: rgba(82, 77, 77, 0.08);
+  border: 1px solid #554f50;
+  color: #554f50;
+}
+
+.green,
+.feedback,
+.complete {
+  background: rgba(48, 210, 39, 0.08);
+  border: 1px solid #35d227;
+  color: #35d227;
+}
+
+.repairs,
+.pending {
+  background: rgba(210, 39, 175, 0.08);
+  border: 1px solid #d227af;
+  color: #d227af;
+}
+
+.hold,
+.requests,
+.assigned {
+  background: rgba(39, 45, 210, 0.08);
+  border: 1px solid #2732d2;
+  color: #2732d2;
+}
+
+.scheduled,
+.on-hold {
+  background: rgba(147, 43, 119, 0.08);
+  border: 1px solid #932b77;
+  color: #932b77;
+}
+
+.preventive .close,
+.close {
+  background: rgba(131, 183, 29, 0.08);
+  border: 1px solid #83b71d;
+  color: #83b71d;
+}
+
+.escalated.hold,
+.escalated {
+  background: rgba(217, 155, 61, 0.08);
+  border: 1px solid #fb8c00;
+  color: #fb8c00;
+}
+
+.upgrade,
+.completed {
+  background: rgba(35, 90, 186, 0.08);
+  border: 1px solid #235aba;
+  color: #235aba;
+}
+
+.in-progress,
+.in {
+  background: rgba(61, 217, 183, 0.08);
+  border: 1px solid #3dd9c9;
+  color: #3dd9c9;
+}
+
+.in {
+  display: inline !important;
+}
+
+.unassigned {
+  background: rgba(217, 207, 61, 0.08);
+  border: 1px solid #d9d43d;
+  color: #d9d43d;
+}
+
+/* -------------------------- Badges fill ----------------------------- */
+
+.fill-badge {
+  color: white;
+  padding: 4px 6px;
+  margin-right: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.high,
+.due {
+  background: #ff4848;
+  border: 1px solid #ff4848;
+}
+
+.normal,
+.ok {
+  background: #348958;
+  border: 1px solid #348958;
+}
+
+.low,
+.over {
+  background: #e9bb62;
+  border: 1px solid #e9bb62;
+}
+
+.urgent {
+  background: #ff8862;
+  border: 1px solid #ff8862;
+}
+
+.medium,
+.faulty {
+  background: #2196f3;
+  border: 1px solid #2196f3;
+}
+
+.acknowledge {
+  background: #e9bb62;
+  border: 1px solid #e9bb62;
+}
+
+.retired {
+  background: #dfdfdf;
+  border: 1px solid #dfdfdf;
+}
+
+.resolved,
+.down {
+  background: #555ee9;
+  color: white !important;
+  border: 1px solid #555ee9;
+}
+
+/* -------------------------- Buttons ----------------------------- */
+
+.red-color {
+  color: #ff4848;
+}
+
+.btn-correct {
+  background: rgba(52, 137, 88, 0.08);
+  border: 1px solid #348958;
+  color: #348958;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 3px 4px 2px 4px;
+  vertical-align: middle;
+}
+
+.btn-correct:hover {
+  background: #348958;
+  color: white;
+}
+
+.btn-cancle {
+  background: rgba(255, 72, 72, 0.08);
+  border: 1px solid #ff4848;
+  color: #ff4848;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 3px 6px 2px 6px;
+  margin-left: 7px;
+  vertical-align: middle;
+}
+
+.btn-cancle:hover {
+  background: #ff4848;
+  color: white;
+}
+
+.btn-update {
+  background: transparent;
+  border: 1px solid #21bfae;
+  color: #21bfae !important;
+  border-radius: 5px;
+  // padding: 5px 20px;
+  padding: 2px 15px;
+}
+
+.radius-6 {
+  border-radius: 6px;
+}
+
+.btn-update-active {
+  background: #21bfae;
+  border: 1px solid #21bfae;
+  color: white;
+  border-radius: 5px;
+  // padding: 5px 20px;
+  padding: 2px 15px;
+}
+
+.btn-excle {
+  background: transparent;
+  border: 2px solid #21bfae;
+  color: #21bfae;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.file-upload-btn {
+  border: 1px dashed grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // padding: 50px;
+  cursor: pointer;
+  width: 100px !important;
+  height: 100px;
+}
+
+.display-image {
+  width: 100px;
+  height: 100px;
+}
+
+.image-container:hover .img-delete {
+  display: unset;
+}
+
+.img-delete {
+  display: none;
+  position: absolute;
+  right: 6%;
+  top: 6%;
+  cursor: pointer;
+  background: #fff;
+  padding: 0.1px;
+  border-radius: 50%;
+  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
+
+.color-green {
+  color: #21bfae;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: transparent;
+  border: hidden;
+  color: #ff4848;
+  margin: 0px 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-quicktask {
+  border: 1px solid #21bfae;
+  border-radius: 6px;
+  color: #21bfae;
+  background-color: transparent;
+  padding: 4px 2px;
+  cursor: pointer;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn-quicktask:hover {
+  color: white;
+  background-color: #21bfae;
+}
+
+.pending-head {
+  border-left: 3px solid #d227af;
+  padding: 15px 20px;
+  background-color: rgba(210, 39, 175, 0.08) !important;
+}
+.progress-head {
+  border-left: 3px solid #268340;
+  padding: 15px 20px;
+  background-color: rgba(38, 131, 64, 0.08) !important;
+}
+.hold-head {
+  border-left: 3px solid #f34759;
+  padding: 15px 20px;
+  background-color: rgba(243, 71, 89, 0.08) !important;
+}
+.completed-head {
+  border-left: 3px solid #235aba;
+  padding: 15px 20px;
+  background-color: rgba(35, 90, 186, 0.08) !important;
+}
+
+/*-------------------------------------------------Icons Class---------------------------------------------------------- */
+$url: "./../../public/";
+.hashtag-icon::before {
+  content: url($url + "images/form-icons/hastag-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.camera-icon::before {
+  content: url($url + "images/form-icons/camera-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.location-icon::before {
+  content: url($url + "images/form-icons/location-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.note-icon::before {
+  content: url($url + "images/form-icons/note-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.calendar-icon::before {
+  content: url($url + "images/form-icons/calendar-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.clock-icon::before {
+  content: url($url + "images/form-icons/clock-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.staff-icon::before {
+  content: url($url + "images/form-icons/staff-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.request-type-icon::before {
+  content: url($url + "images/form-icons/request-type-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.priority-icon::before {
+  content: url($url + "images/form-icons/priority-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.update-icon::before {
+  content: url($url + "images/form-icons/update-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.requestor-icon::before {
+  content: url($url + "images/form-icons/requestor-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.location-type::before {
+  content: url($url + "images/form-icons/location-type.svg");
+  position: absolute;
+  left: 7px;
+  top: 13px;
+}
+.category-icon::before {
+  content: url($url + "images/form-icons/category-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.function-icon::before {
+  content: url($url + "images/form-icons/function-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.device-icon::before {
+  content: url($url + "images/form-icons/device-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.feedback-icon::before {
+  content: url($url + "images/form-icons/feedback-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.device2-icon::before {
+  content: url($url + "images/form-icons/device2-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}
+.building-icon::before {
+  content: url($url + "images/form-icons/building-icon.svg");
+  position: absolute;
+  left: 9px;
+  top: 13px;
+}

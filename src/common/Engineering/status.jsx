@@ -1,0 +1,9 @@
+export const COMPLETED = "Completed";
+export const CLOSED = "Closed";
+export const PENDING = "Pending";
+export const ASSIGNED = "Assigned";
+export const PROGRESS = "In Progress";
+export const HOLD = "On Hold";
+export const REJECTED = "Rejected";
+export const APPROVED = "Pre-Approved";
+export const REOPEN = "Reopen";

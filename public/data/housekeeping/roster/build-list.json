@@ -1,0 +1,32 @@
+[
+    {
+      "id": 13,
+      "property_id": 4,
+      "name": "Admin Area",
+      "description": "Admin Area"
+    },
+    {
+      "id": 10,
+      "property_id": 4,
+      "name": "Apartment",
+      "description": "Apartment"
+    },
+    {
+      "id": 11,
+      "property_id": 4,
+      "name": "Hotel",
+      "description": "Hotel"
+    },
+    {
+      "id": 1,
+      "property_id": 4,
+      "name": "IT DEPT",
+      "description": "IT DEPT"
+    },
+    {
+      "id": 12,
+      "property_id": 4,
+      "name": "Unfurnished",
+      "description": "Unfurnished"
+    }
+  ]

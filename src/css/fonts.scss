@@ -1,0 +1,187 @@
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('./../../public/fonts/lato/Lato-Regular.ttf') format('truetype');
+// }
+
+// *, body, input, label {
+//     font-family: 'Lato';
+//     font-style: normal;
+// }
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./../../public/fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./../../public/fonts/lato/Lato-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./../../public/fonts/lato/Lato-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./../../public/fonts/lato/Lato-Bold.ttf") format("truetype");
+}
+
+.lato-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.lato-canvas-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.lato-canvas-sub-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.lato-sidemenu,
+.lato-btn,
+.lato-header-action,
+.lato-modal-body,
+.lato-input,
+.lato-canvas-content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.lato-checked {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.lato-action,
+.lato-filter-action {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.lato-tbody {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.lato-sub-tab {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.lato-filter-head {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.lato-dropdown {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.lato-uncheck {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.lato-submit {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.lato-sub-head {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.lato-sub-td {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.lato-error,
+.export-excel {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.lato-thead {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.lato-label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.lato-model-head {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+// .lato-input,
+.lato-sub-tbody {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.lato-model-input {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+}
